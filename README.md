@@ -1,14 +1,14 @@
-= Collectd speedtest.net plugin
+# Collectd speedtest.net plugin
 
-== Pre-reqs
+## Pre-reqs
  * Speedtest CLI from Ookla - https://www.speedtest.net/apps/cli
     * remove any other `speedtest` version that you may have
 
-== Tested Platforms
+## Tested Platforms
  * Ubuntu 16.04.6 LTS
  * collectd 5.5.1-1build2
 
-== Install
+## Install
  * See `speedtest.conf` 
    * use `speedlist -L` to find and pick your serverse to test
  * Run `speedtest` as the collectd user first to accept the terms
